@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://192.168.10.100:3306/lease?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2b8
-    username: lease_app
-    password: 'Root@2026abc'
+    url: jdbc:mysql://xxx.xxx.xx.xxx:3306/lease?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2b8
+    username: xxxx
+    password: 'xxxx'
     hikari:
       connection-test-query: SELECT 1 # 自动检测连接
       connection-timeout: 60000 #数据库连接超时时间,默认30秒
@@ -31,9 +31,9 @@ mybatis-plus:
 
 minio:
   endpoint: http://192.168.10.100:9000
-  access-key: minioadmin
-  secret-key: yh19970414
-  bucket-name: lease
+  access-key: xxxx
+  secret-key: xxxx
+  bucket-name: xxxx
 
 springdoc:
   default-flat-param-object: true
